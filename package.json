@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-rawg",
+  "version": "0.1.0",
+  "description": "RAWG MCP — wraps the RAWG video games database API (rawg.io)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "rawg"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-rawg"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
