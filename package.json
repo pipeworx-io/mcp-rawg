@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-rawg",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "RAWG MCP — wraps the RAWG video games database API (rawg.io)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-rawg": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "rawg"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-rawg.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/rawg",
   "pipeworx": {
-    "sourceHash": "v1-5f4d41de9d3f3514c131e8ecd4f2ec3bee5f61397d57245b68dfd80cef1cf5c5",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "rawg",
+    "gatewaySlug": "rawg",
+    "sourceHash": "v1-d4d6ef0732001f5d0ad2f7d0be4256d0f074f8d0c81cc4486f0d2f4693cb0d06",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
