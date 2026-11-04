@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-rawg",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "RAWG MCP — wraps the RAWG video games database API (rawg.io)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "rawg",
     "gatewaySlug": "rawg",
-    "sourceHash": "v1-d4d6ef0732001f5d0ad2f7d0be4256d0f074f8d0c81cc4486f0d2f4693cb0d06",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-0120f41ed92b5506d9df6f4a63237c4afa5510c67462f2c40980313c74c3d866",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
