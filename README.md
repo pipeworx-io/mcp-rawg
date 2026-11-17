@@ -1,17 +1,17 @@
 # mcp-rawg
 
-RAWG MCP — wraps the RAWG video games database API (rawg.io)
+Unofficial RAWG MCP — wraps the RAWG video games database API (rawg.io)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_games` | Search the RAWG video game database by name, genre, or platform. Returns games with ratings, Metacritic scores, release dates, platforms, and genres. Example: search_games({ query: "zelda", ordering: "-metacritic" }) |
-| `get_game` | Get full details for a single video game: description, ratings, Metacritic score, platforms, genres, developers, publishers, ESRB rating, and playtime. Example: get_game({ id: "the-witcher-3-wild-hunt" }) |
-| `list_genres` | List all video game genres in the RAWG database, with game counts per genre (e.g. Action, RPG, Indie, Strategy). |
-| `list_platforms` | List all gaming platforms in the RAWG database, with game counts per platform (e.g. PC, PlayStation 5, Xbox Series X, Nintendo Switch). |
+| `rawg_search_games` | Search the RAWG video game database by name, genre, or platform. Returns games with ratings, Metacritic scores, release dates, platforms, and genres. Example: search_games({ query: "zelda", ordering: "-metacritic" }) |
+| `rawg_get_game` | Get full details for a single video game: description, ratings, Metacritic score, platforms, genres, developers, publishers, ESRB rating, and playtime. Example: get_game({ id: "the-witcher-3-wild-hunt" }) |
+| `rawg_list_genres` | List all video game genres in the RAWG database, with game counts per genre (e.g. Action, RPG, Indie, Strategy). |
+| `rawg_list_platforms` | List all gaming platforms in the RAWG database, with game counts per platform (e.g. PC, PlayStation 5, Xbox Series X, Nintendo Switch). |
 
 ## Quick Start
 
@@ -57,7 +57,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

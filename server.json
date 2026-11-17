@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/rawg",
-  "title": "Rawg",
-  "description": "RAWG MCP — wraps the RAWG video games database API (rawg.io)",
-  "version": "0.2.1",
+  "title": "RAWG (Unofficial)",
+  "description": "Unofficial RAWG MCP — wraps the RAWG video games database API (rawg.io)",
+  "version": "0.2.2",
   "websiteUrl": "https://pipeworx.io/packs/rawg",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-rawg",
